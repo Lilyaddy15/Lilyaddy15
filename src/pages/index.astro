@@ -7,6 +7,8 @@ import Layout from '../layouts/Layout.astro';
 		<h1>Welcome to Amplifly</h1>
 		<h3>We're in the process of building version 1, please check back later</h3>
 	</main>
+	<script type="module">let o=["I'm a developer","I'm a entrepreneur","I'm a home cook","I'm a cat owner","I'm a Software Engineer","I'm a problem solver","I'm a motorsport fan","I'm a UI/UX designer"];const n=document.getElementById("line-container");o.forEach((t,a)=>{let e=document.createElement("p");e.classList.add("line"),e.textContent=t,e.style.animationDelay=`-${a*2}s`,n&&n.appendChild(e)});
+</script>
 </Layout>
 
 <style>
@@ -20,6 +22,4 @@ import Layout from '../layouts/Layout.astro';
 		font-weight: 800;
 		margin: 0;
 	}
-	<script type="module">let o=["I'm a developer","I'm a entrepreneur","I'm a home cook","I'm a cat owner","I'm a Software Engineer","I'm a problem solver","I'm a motorsport fan","I'm a UI/UX designer"];const n=document.getElementById("line-container");o.forEach((t,a)=>{let e=document.createElement("p");e.classList.add("line"),e.textContent=t,e.style.animationDelay=`-${a*2}s`,n&&n.appendChild(e)});
-</script>
 </style>
